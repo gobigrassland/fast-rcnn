@@ -11,14 +11,15 @@ Re-implement of Fast Rcnn Without Python Codes
 #Requirements
 External dependencies  
 
-1. Pugixml - a light-weight C++ XML processing library. see http://pugixml.org/ 
-2. Matio - matlab mat file I/O library. see https://sourceforge.net/projects/matio/ 
-3. Cfgparser - configuration reader C++ library. see http://cfgparser.sourceforge.net/ 
+1. Pugixml - a light-weight C++ XML processing library. See http://pugixml.org/ 
+2. Matio - matlab mat file I/O library. See https://sourceforge.net/projects/matio/ 
+3. Cfgparser - configuration reader C++ library. See http://cfgparser.sourceforge.net/ 
 
   Header files of these external libraries has been added in the directory - "include/caffe/3rdparty". And source files added
 in "src/caffe/3rdparty".
 
 #Changes
+Main changes compared to caffe
 1. roi_data_extractor.cpp in "src/caffe/util"  
   1.1 Load bounding boxes from XML file in the PASCAL VOC format  
   1.2 Load selective search regions of interest in the Matlab format  
@@ -36,5 +37,7 @@ in "src/caffe/3rdparty".
 #Installation
   git clone https://github.com/gobigrassland/fast-rcnn.git
 
+#Usage
+ Prepare data
 
 #Experiment logs
