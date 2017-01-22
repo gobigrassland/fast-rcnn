@@ -1,0 +1,880 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="97">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <df root="." name="0">
+      <df name=".build_debug">
+        <df name=".lint">
+        </df>
+        <df name="cuda">
+          <df name="examples">
+            <df name="cifar10">
+            </df>
+            <df name="cpp_classification">
+            </df>
+            <df name="mnist">
+            </df>
+            <df name="siamese">
+            </df>
+          </df>
+          <df name="matlab">
+            <df name="+caffe">
+              <df name="private">
+              </df>
+            </df>
+          </df>
+          <df name="python">
+            <df name="caffe">
+            </df>
+          </df>
+          <df name="src">
+            <df name="caffe">
+              <df name="3rdparty">
+              </df>
+              <df name="layers">
+              </df>
+              <df name="proto">
+              </df>
+              <df name="solvers">
+              </df>
+              <df name="test">
+              </df>
+              <df name="util">
+              </df>
+            </df>
+            <df name="gtest">
+            </df>
+          </df>
+          <df name="tools">
+          </df>
+        </df>
+        <df name="examples">
+          <df name="cifar10">
+          </df>
+          <df name="cpp_classification">
+          </df>
+          <df name="mnist">
+          </df>
+          <df name="siamese">
+          </df>
+        </df>
+        <df name="lib">
+        </df>
+        <df name="matlab">
+          <df name="+caffe">
+            <df name="private">
+            </df>
+          </df>
+        </df>
+        <df name="python">
+          <df name="caffe">
+          </df>
+        </df>
+        <df name="src">
+          <df name="caffe">
+            <df name="3rdparty">
+            </df>
+            <df name="layers">
+            </df>
+            <df name="proto">
+              <in>caffe.pb.cc</in>
+              <in>caffe.pb.h</in>
+            </df>
+            <df name="solvers">
+            </df>
+            <df name="test">
+            </df>
+            <df name="util">
+            </df>
+          </df>
+          <df name="gtest">
+          </df>
+        </df>
+        <df name="test">
+        </df>
+        <df name="tools">
+        </df>
+      </df>
+      <df name=".build_release">
+        <df name=".lint">
+        </df>
+        <df name="cuda">
+          <df name="examples">
+            <df name="cifar10">
+            </df>
+            <df name="cpp_classification">
+            </df>
+            <df name="mnist">
+            </df>
+            <df name="siamese">
+            </df>
+          </df>
+          <df name="matlab">
+            <df name="+caffe">
+              <df name="private">
+              </df>
+            </df>
+          </df>
+          <df name="python">
+            <df name="caffe">
+            </df>
+          </df>
+          <df name="src">
+            <df name="caffe">
+              <df name="3rdparty">
+              </df>
+              <df name="layers">
+              </df>
+              <df name="proto">
+              </df>
+              <df name="solvers">
+              </df>
+              <df name="test">
+              </df>
+              <df name="util">
+              </df>
+            </df>
+            <df name="gtest">
+            </df>
+          </df>
+          <df name="tools">
+          </df>
+        </df>
+        <df name="examples">
+          <df name="cifar10">
+          </df>
+          <df name="cpp_classification">
+          </df>
+          <df name="mnist">
+          </df>
+          <df name="siamese">
+          </df>
+        </df>
+        <df name="lib">
+        </df>
+        <df name="matlab">
+          <df name="+caffe">
+            <df name="private">
+            </df>
+          </df>
+        </df>
+        <df name="python">
+          <df name="caffe">
+          </df>
+        </df>
+        <df name="src">
+          <df name="caffe">
+            <df name="3rdparty">
+            </df>
+            <df name="layers">
+            </df>
+            <df name="proto">
+              <in>caffe.pb.cc</in>
+              <in>caffe.pb.h</in>
+            </df>
+            <df name="solvers">
+            </df>
+            <df name="test">
+            </df>
+            <df name="util">
+            </df>
+          </df>
+          <df name="gtest">
+          </df>
+        </df>
+        <df name="test">
+        </df>
+        <df name="tools">
+        </df>
+      </df>
+      <df name=".github">
+      </df>
+      <df name="build">
+        <df name=".lint">
+        </df>
+        <df name="cuda">
+          <df name="examples">
+            <df name="cifar10">
+            </df>
+            <df name="cpp_classification">
+            </df>
+            <df name="mnist">
+            </df>
+            <df name="siamese">
+            </df>
+          </df>
+          <df name="matlab">
+            <df name="+caffe">
+              <df name="private">
+              </df>
+            </df>
+          </df>
+          <df name="python">
+            <df name="caffe">
+            </df>
+          </df>
+          <df name="src">
+            <df name="caffe">
+              <df name="3rdparty">
+              </df>
+              <df name="layers">
+              </df>
+              <df name="proto">
+              </df>
+              <df name="solvers">
+              </df>
+              <df name="test">
+              </df>
+              <df name="util">
+              </df>
+            </df>
+            <df name="gtest">
+            </df>
+          </df>
+          <df name="tools">
+          </df>
+        </df>
+        <df name="examples">
+          <df name="cifar10">
+          </df>
+          <df name="cpp_classification">
+          </df>
+          <df name="mnist">
+          </df>
+          <df name="siamese">
+          </df>
+        </df>
+        <df name="lib">
+        </df>
+        <df name="matlab">
+          <df name="+caffe">
+            <df name="private">
+            </df>
+          </df>
+        </df>
+        <df name="python">
+          <df name="caffe">
+          </df>
+        </df>
+        <df name="src">
+          <df name="caffe">
+            <df name="3rdparty">
+            </df>
+            <df name="layers">
+            </df>
+            <df name="proto">
+              <in>caffe.pb.cc</in>
+              <in>caffe.pb.h</in>
+            </df>
+            <df name="solvers">
+            </df>
+            <df name="test">
+            </df>
+            <df name="util">
+            </df>
+          </df>
+          <df name="gtest">
+          </df>
+        </df>
+        <df name="test">
+        </df>
+        <df name="tools">
+        </df>
+      </df>
+      <df name="cmake">
+        <df name="External">
+        </df>
+        <df name="Modules">
+        </df>
+        <df name="Templates">
+        </df>
+      </df>
+      <df name="data">
+        <df name="cifar10">
+        </df>
+        <df name="ilsvrc12">
+        </df>
+        <df name="mnist">
+        </df>
+      </df>
+      <df name="distribute">
+        <df name="bin">
+        </df>
+        <df name="lib">
+        </df>
+      </df>
+      <df name="docker">
+        <df name="standalone">
+          <df name="cpu">
+          </df>
+          <df name="gpu">
+          </df>
+        </df>
+        <df name="templates">
+        </df>
+      </df>
+      <df name="docs">
+        <df name="_layouts">
+        </df>
+        <df name="images">
+        </df>
+        <df name="stylesheets">
+        </df>
+        <df name="tutorial">
+          <df name="fig">
+          </df>
+        </df>
+      </df>
+      <df name="examples">
+        <df name="cifar10">
+          <in>convert_cifar_data.cpp</in>
+        </df>
+        <df name="cpp_classification">
+          <in>classification.cpp</in>
+        </df>
+        <df name="feature_extraction">
+        </df>
+        <df name="finetune_flickr_style">
+        </df>
+        <df name="finetune_pascal_detection">
+        </df>
+        <df name="hdf5_classification">
+        </df>
+        <df name="imagenet">
+        </df>
+        <df name="images">
+        </df>
+        <df name="mnist">
+          <in>convert_mnist_data.cpp</in>
+        </df>
+        <df name="net_surgery">
+        </df>
+        <df name="pycaffe">
+          <df name="layers">
+          </df>
+        </df>
+        <df name="siamese">
+          <in>convert_mnist_siamese_data.cpp</in>
+        </df>
+        <df name="web_demo">
+          <df name="templates">
+          </df>
+        </df>
+      </df>
+      <df name="include">
+        <df name="caffe">
+          <df name="3rdparty">
+            <in>cfgparser.h</in>
+            <in>configwrapper.h</in>
+            <in>dbglog.h</in>
+            <in>dbglogobject.h</in>
+            <in>matio.h</in>
+            <in>matioConfig.h</in>
+            <in>matio_pubconf.h</in>
+            <in>pugiconfig.hpp</in>
+            <in>pugixml.hpp</in>
+          </df>
+          <df name="layers">
+            <in>absval_layer.hpp</in>
+            <in>accuracy_layer.hpp</in>
+            <in>argmax_layer.hpp</in>
+            <in>base_conv_layer.hpp</in>
+            <in>base_data_layer.hpp</in>
+            <in>batch_norm_layer.hpp</in>
+            <in>batch_reindex_layer.hpp</in>
+            <in>bias_layer.hpp</in>
+            <in>bnll_layer.hpp</in>
+            <in>concat_layer.hpp</in>
+            <in>contrastive_loss_layer.hpp</in>
+            <in>conv_layer.hpp</in>
+            <in>crop_layer.hpp</in>
+            <in>cudnn_conv_layer.hpp</in>
+            <in>cudnn_lcn_layer.hpp</in>
+            <in>cudnn_lrn_layer.hpp</in>
+            <in>cudnn_pooling_layer.hpp</in>
+            <in>cudnn_relu_layer.hpp</in>
+            <in>cudnn_sigmoid_layer.hpp</in>
+            <in>cudnn_softmax_layer.hpp</in>
+            <in>cudnn_tanh_layer.hpp</in>
+            <in>data_layer.hpp</in>
+            <in>deconv_layer.hpp</in>
+            <in>dropout_layer.hpp</in>
+            <in>dummy_data_layer.hpp</in>
+            <in>eltwise_layer.hpp</in>
+            <in>elu_layer.hpp</in>
+            <in>embed_layer.hpp</in>
+            <in>euclidean_loss_layer.hpp</in>
+            <in>exp_layer.hpp</in>
+            <in>filter_layer.hpp</in>
+            <in>flatten_layer.hpp</in>
+            <in>hdf5_data_layer.hpp</in>
+            <in>hdf5_output_layer.hpp</in>
+            <in>hinge_loss_layer.hpp</in>
+            <in>im2col_layer.hpp</in>
+            <in>image_data_layer.hpp</in>
+            <in>infogain_loss_layer.hpp</in>
+            <in>inner_product_layer.hpp</in>
+            <in>input_layer.hpp</in>
+            <in>log_layer.hpp</in>
+            <in>loss_layer.hpp</in>
+            <in>lrn_layer.hpp</in>
+            <in>lstm_layer.hpp</in>
+            <in>memory_data_layer.hpp</in>
+            <in>multinomial_logistic_loss_layer.hpp</in>
+            <in>mvn_layer.hpp</in>
+            <in>neuron_layer.hpp</in>
+            <in>parameter_layer.hpp</in>
+            <in>pooling_layer.hpp</in>
+            <in>power_layer.hpp</in>
+            <in>prelu_layer.hpp</in>
+            <in>python_layer.hpp</in>
+            <in>recurrent_layer.hpp</in>
+            <in>reduction_layer.hpp</in>
+            <in>relu_layer.hpp</in>
+            <in>reshape_layer.hpp</in>
+            <in>rnn_layer.hpp</in>
+            <in>roi_data_layer.hpp</in>
+            <in>roi_pooling_layer.hpp</in>
+            <in>scale_layer.hpp</in>
+            <in>sigmoid_cross_entropy_loss_layer.hpp</in>
+            <in>sigmoid_layer.hpp</in>
+            <in>silence_layer.hpp</in>
+            <in>slice_layer.hpp</in>
+            <in>smooth_L1_loss_layer.hpp</in>
+            <in>softmax_layer.hpp</in>
+            <in>softmax_loss_layer.hpp</in>
+            <in>split_layer.hpp</in>
+            <in>spp_layer.hpp</in>
+            <in>tanh_layer.hpp</in>
+            <in>threshold_layer.hpp</in>
+            <in>tile_layer.hpp</in>
+            <in>window_data_layer.hpp</in>
+          </df>
+          <df name="test">
+            <in>test_caffe_main.hpp</in>
+            <in>test_gradient_check_util.hpp</in>
+          </df>
+          <df name="util">
+            <in>bboxproc.hpp</in>
+            <in>benchmark.hpp</in>
+            <in>blocking_queue.hpp</in>
+            <in>cudnn.hpp</in>
+            <in>db.hpp</in>
+            <in>db_leveldb.hpp</in>
+            <in>db_lmdb.hpp</in>
+            <in>device_alternate.hpp</in>
+            <in>format.hpp</in>
+            <in>hdf5.hpp</in>
+            <in>im2col.hpp</in>
+            <in>insert_splits.hpp</in>
+            <in>io.hpp</in>
+            <in>math_functions.hpp</in>
+            <in>mkl_alternate.hpp</in>
+            <in>parse_config.hpp</in>
+            <in>rng.hpp</in>
+            <in>roi_data_extractor.hpp</in>
+            <in>signal_handler.h</in>
+            <in>upgrade_proto.hpp</in>
+          </df>
+          <in>blob.hpp</in>
+          <in>caffe.hpp</in>
+          <in>common.hpp</in>
+          <in>data_reader.hpp</in>
+          <in>data_transformer.hpp</in>
+          <in>filler.hpp</in>
+          <in>internal_thread.hpp</in>
+          <in>layer.hpp</in>
+          <in>layer_factory.hpp</in>
+          <in>net.hpp</in>
+          <in>parallel.hpp</in>
+          <in>sgd_solvers.hpp</in>
+          <in>solver.hpp</in>
+          <in>solver_factory.hpp</in>
+          <in>syncedmem.hpp</in>
+        </df>
+      </df>
+      <df name="matlab">
+        <df name="+caffe">
+          <df name="+test">
+            <in>test_io.m</in>
+            <in>test_net.m</in>
+            <in>test_solver.m</in>
+          </df>
+          <df name="imagenet">
+          </df>
+          <df name="private">
+            <in>CHECK.m</in>
+            <in>CHECK_FILE_EXIST.m</in>
+            <in>caffe_.cpp</in>
+            <in>is_valid_handle.m</in>
+          </df>
+          <in>Blob.m</in>
+          <in>Layer.m</in>
+          <in>Net.m</in>
+          <in>Solver.m</in>
+          <in>get_net.m</in>
+          <in>get_solver.m</in>
+          <in>io.m</in>
+          <in>reset_all.m</in>
+          <in>run_tests.m</in>
+          <in>set_device.m</in>
+          <in>set_mode_cpu.m</in>
+          <in>set_mode_gpu.m</in>
+          <in>version.m</in>
+        </df>
+        <df name="demo">
+          <in>classification_demo.m</in>
+        </df>
+        <df name="hdf5creation">
+          <in>demo.m</in>
+          <in>store2hdf5.m</in>
+        </df>
+      </df>
+      <df name="models">
+        <df name="bvlc_alexnet">
+        </df>
+        <df name="bvlc_googlenet">
+        </df>
+        <df name="bvlc_reference_caffenet">
+        </df>
+        <df name="bvlc_reference_rcnn_ilsvrc13">
+        </df>
+        <df name="finetune_flickr_style">
+        </df>
+      </df>
+      <df name="python">
+        <df name="caffe">
+          <df name="imagenet">
+          </df>
+          <df name="proto">
+          </df>
+          <df name="test">
+          </df>
+          <in>_caffe.cpp</in>
+        </df>
+      </df>
+      <df name="scripts">
+        <df name="travis">
+        </df>
+      </df>
+      <df name="src">
+        <df name="caffe">
+          <df name="3rdparty">
+            <in>cfgparser.cpp</in>
+            <in>configwrapper.cpp</in>
+            <in>dbglog.cpp</in>
+            <in>pugixml.cpp</in>
+          </df>
+          <df name="layers">
+            <in>absval_layer.cpp</in>
+            <in>accuracy_layer.cpp</in>
+            <in>argmax_layer.cpp</in>
+            <in>base_conv_layer.cpp</in>
+            <in>base_data_layer.cpp</in>
+            <in>batch_norm_layer.cpp</in>
+            <in>batch_reindex_layer.cpp</in>
+            <in>bias_layer.cpp</in>
+            <in>bnll_layer.cpp</in>
+            <in>concat_layer.cpp</in>
+            <in>contrastive_loss_layer.cpp</in>
+            <in>conv_layer.cpp</in>
+            <in>crop_layer.cpp</in>
+            <in>cudnn_conv_layer.cpp</in>
+            <in>cudnn_lcn_layer.cpp</in>
+            <in>cudnn_lrn_layer.cpp</in>
+            <in>cudnn_pooling_layer.cpp</in>
+            <in>cudnn_relu_layer.cpp</in>
+            <in>cudnn_sigmoid_layer.cpp</in>
+            <in>cudnn_softmax_layer.cpp</in>
+            <in>cudnn_tanh_layer.cpp</in>
+            <in>data_layer.cpp</in>
+            <in>deconv_layer.cpp</in>
+            <in>dropout_layer.cpp</in>
+            <in>dummy_data_layer.cpp</in>
+            <in>eltwise_layer.cpp</in>
+            <in>elu_layer.cpp</in>
+            <in>embed_layer.cpp</in>
+            <in>euclidean_loss_layer.cpp</in>
+            <in>exp_layer.cpp</in>
+            <in>filter_layer.cpp</in>
+            <in>flatten_layer.cpp</in>
+            <in>hdf5_data_layer.cpp</in>
+            <in>hdf5_output_layer.cpp</in>
+            <in>hinge_loss_layer.cpp</in>
+            <in>im2col_layer.cpp</in>
+            <in>image_data_layer.cpp</in>
+            <in>infogain_loss_layer.cpp</in>
+            <in>inner_product_layer.cpp</in>
+            <in>input_layer.cpp</in>
+            <in>log_layer.cpp</in>
+            <in>loss_layer.cpp</in>
+            <in>lrn_layer.cpp</in>
+            <in>lstm_layer.cpp</in>
+            <in>lstm_unit_layer.cpp</in>
+            <in>memory_data_layer.cpp</in>
+            <in>multinomial_logistic_loss_layer.cpp</in>
+            <in>mvn_layer.cpp</in>
+            <in>neuron_layer.cpp</in>
+            <in>parameter_layer.cpp</in>
+            <in>pooling_layer.cpp</in>
+            <in>power_layer.cpp</in>
+            <in>prelu_layer.cpp</in>
+            <in>recurrent_layer.cpp</in>
+            <in>reduction_layer.cpp</in>
+            <in>relu_layer.cpp</in>
+            <in>reshape_layer.cpp</in>
+            <in>rnn_layer.cpp</in>
+            <in>roi_data_layer.cpp</in>
+            <in>roi_pooling_layer.cpp</in>
+            <in>scale_layer.cpp</in>
+            <in>sigmoid_cross_entropy_loss_layer.cpp</in>
+            <in>sigmoid_layer.cpp</in>
+            <in>silence_layer.cpp</in>
+            <in>slice_layer.cpp</in>
+            <in>smooth_L1_loss_layer.cpp</in>
+            <in>softmax_layer.cpp</in>
+            <in>softmax_loss_layer.cpp</in>
+            <in>split_layer.cpp</in>
+            <in>spp_layer.cpp</in>
+            <in>tanh_layer.cpp</in>
+            <in>threshold_layer.cpp</in>
+            <in>tile_layer.cpp</in>
+            <in>window_data_layer.cpp</in>
+          </df>
+          <df name="proto">
+          </df>
+          <df name="solvers">
+            <in>adadelta_solver.cpp</in>
+            <in>adagrad_solver.cpp</in>
+            <in>adam_solver.cpp</in>
+            <in>nesterov_solver.cpp</in>
+            <in>rmsprop_solver.cpp</in>
+            <in>sgd_solver.cpp</in>
+          </df>
+          <df name="test">
+            <df name="test_data">
+            </df>
+            <in>test_accuracy_layer.cpp</in>
+            <in>test_argmax_layer.cpp</in>
+            <in>test_batch_norm_layer.cpp</in>
+            <in>test_batch_reindex_layer.cpp</in>
+            <in>test_benchmark.cpp</in>
+            <in>test_bias_layer.cpp</in>
+            <in>test_blob.cpp</in>
+            <in>test_caffe_main.cpp</in>
+            <in>test_common.cpp</in>
+            <in>test_concat_layer.cpp</in>
+            <in>test_contrastive_loss_layer.cpp</in>
+            <in>test_convolution_layer.cpp</in>
+            <in>test_crop_layer.cpp</in>
+            <in>test_data_layer.cpp</in>
+            <in>test_data_transformer.cpp</in>
+            <in>test_db.cpp</in>
+            <in>test_deconvolution_layer.cpp</in>
+            <in>test_dummy_data_layer.cpp</in>
+            <in>test_eltwise_layer.cpp</in>
+            <in>test_embed_layer.cpp</in>
+            <in>test_euclidean_loss_layer.cpp</in>
+            <in>test_filler.cpp</in>
+            <in>test_filter_layer.cpp</in>
+            <in>test_flatten_layer.cpp</in>
+            <in>test_gradient_based_solver.cpp</in>
+            <in>test_hdf5_output_layer.cpp</in>
+            <in>test_hdf5data_layer.cpp</in>
+            <in>test_hinge_loss_layer.cpp</in>
+            <in>test_im2col_layer.cpp</in>
+            <in>test_image_data_layer.cpp</in>
+            <in>test_infogain_loss_layer.cpp</in>
+            <in>test_inner_product_layer.cpp</in>
+            <in>test_internal_thread.cpp</in>
+            <in>test_io.cpp</in>
+            <in>test_layer_factory.cpp</in>
+            <in>test_lrn_layer.cpp</in>
+            <in>test_lstm_layer.cpp</in>
+            <in>test_math_functions.cpp</in>
+            <in>test_maxpool_dropout_layers.cpp</in>
+            <in>test_memory_data_layer.cpp</in>
+            <in>test_multinomial_logistic_loss_layer.cpp</in>
+            <in>test_mvn_layer.cpp</in>
+            <in>test_net.cpp</in>
+            <in>test_neuron_layer.cpp</in>
+            <in>test_platform.cpp</in>
+            <in>test_pooling_layer.cpp</in>
+            <in>test_power_layer.cpp</in>
+            <in>test_protobuf.cpp</in>
+            <in>test_random_number_generator.cpp</in>
+            <in>test_reduction_layer.cpp</in>
+            <in>test_reshape_layer.cpp</in>
+            <in>test_rnn_layer.cpp</in>
+            <in>test_scale_layer.cpp</in>
+            <in>test_sigmoid_cross_entropy_loss_layer.cpp</in>
+            <in>test_slice_layer.cpp</in>
+            <in>test_softmax_layer.cpp</in>
+            <in>test_softmax_with_loss_layer.cpp</in>
+            <in>test_solver.cpp</in>
+            <in>test_solver_factory.cpp</in>
+            <in>test_split_layer.cpp</in>
+            <in>test_spp_layer.cpp</in>
+            <in>test_stochastic_pooling.cpp</in>
+            <in>test_syncedmem.cpp</in>
+            <in>test_tanh_layer.cpp</in>
+            <in>test_threshold_layer.cpp</in>
+            <in>test_tile_layer.cpp</in>
+            <in>test_upgrade_proto.cpp</in>
+            <in>test_util_blas.cpp</in>
+          </df>
+          <df name="util">
+            <in>benchmark.cpp</in>
+            <in>blocking_queue.cpp</in>
+            <in>cudnn.cpp</in>
+            <in>db.cpp</in>
+            <in>db_leveldb.cpp</in>
+            <in>db_lmdb.cpp</in>
+            <in>hdf5.cpp</in>
+            <in>im2col.cpp</in>
+            <in>insert_splits.cpp</in>
+            <in>io.cpp</in>
+            <in>math_functions.cpp</in>
+            <in>parse_config.cpp</in>
+            <in>roi_data_extractor.cpp</in>
+            <in>signal_handler.cpp</in>
+            <in>upgrade_proto.cpp</in>
+          </df>
+          <in>blob.cpp</in>
+          <in>common.cpp</in>
+          <in>data_reader.cpp</in>
+          <in>data_transformer.cpp</in>
+          <in>internal_thread.cpp</in>
+          <in>layer.cpp</in>
+          <in>layer_factory.cpp</in>
+          <in>net.cpp</in>
+          <in>parallel.cpp</in>
+          <in>solver.cpp</in>
+          <in>syncedmem.cpp</in>
+        </df>
+        <df name="gtest">
+          <in>gtest-all.cpp</in>
+          <in>gtest.h</in>
+          <in>gtest_main.cc</in>
+        </df>
+      </df>
+      <df name="tools">
+        <df name="extra">
+        </df>
+        <in>caffe.cpp</in>
+        <in>compute_image_mean.cpp</in>
+        <in>convert_imageset.cpp</in>
+        <in>detection.cpp</in>
+        <in>device_query.cpp</in>
+        <in>extract_features.cpp</in>
+        <in>finetune_net.cpp</in>
+        <in>net_speed_benchmark.cpp</in>
+        <in>test_cfgparser.cpp</in>
+        <in>test_net.cpp</in>
+        <in>train_net.cpp</in>
+        <in>upgrade_net_proto_binary.cpp</in>
+        <in>upgrade_net_proto_text.cpp</in>
+        <in>upgrade_solver_proto_text.cpp</in>
+      </df>
+    </df>
+  </logicalFolder>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Default" type="0">
+      <toolsSet>
+        <developmentServer>localhost</developmentServer>
+        <platform>2</platform>
+      </toolsSet>
+      <compile>
+        <compiledirpicklist>
+          <compiledirpicklistitem>.</compiledirpicklistitem>
+          <compiledirpicklistitem>${AUTO_FOLDER}</compiledirpicklistitem>
+        </compiledirpicklist>
+        <compiledir>${AUTO_FOLDER}</compiledir>
+        <compilecommandpicklist>
+          <compilecommandpicklistitem>${MAKE} ${ITEM_NAME}.o</compilecommandpicklistitem>
+          <compilecommandpicklistitem>${AUTO_COMPILE}</compilecommandpicklistitem>
+        </compilecommandpicklist>
+        <compilecommand>${AUTO_COMPILE}</compilecommand>
+      </compile>
+      <dbx_gdbdebugger version="1">
+        <gdb_pathmaps>
+        </gdb_pathmaps>
+        <gdb_interceptlist>
+          <gdbinterceptoptions gdb_all="false" gdb_unhandled="true" gdb_unexpected="true"/>
+        </gdb_interceptlist>
+        <gdb_signals>
+        </gdb_signals>
+        <gdb_options>
+          <DebugOptions>
+            <option name="debug_command"
+                    value="caffe-fast-rcnn/build/tools/caffe.bin train --solver=models/VGG_CNN_M_1024_nopython/solver.prototxt --weights=data/imagenet_models/VGG_CNN_M_1024.v2.caffemodel --gpu=0"/>
+            <option name="debug_dir" value="/home/dl/codes/test-code/gitver"/>
+          </DebugOptions>
+        </gdb_options>
+        <gdb_buildfirst gdb_buildfirst_overriden="false" gdb_buildfirst_old="false"/>
+      </dbx_gdbdebugger>
+      <nativedebugger version="1">
+        <engine>gdb</engine>
+      </nativedebugger>
+      <runprofile version="9">
+        <runcommandpicklist>
+          <runcommandpicklistitem>"${OUTPUT_PATH}"</runcommandpicklistitem>
+          <runcommandpicklistitem>caffe-fast-rcnn/build/tools/caffe.bin train --solver=models/VGG_CNN_M_1024_nopython/solver.prototxt --weights=data/imagenet_models/VGG_CNN_M_1024.v2.caffemodel --gpu=0</runcommandpicklistitem>
+        </runcommandpicklist>
+        <runcommand>caffe-fast-rcnn/build/tools/caffe.bin train --solver=models/VGG_CNN_M_1024_nopython/solver.prototxt --weights=data/imagenet_models/VGG_CNN_M_1024.v2.caffemodel --gpu=0</runcommand>
+        <rundir>/home/dl/codes/test-code/gitver</rundir>
+        <buildfirst>false</buildfirst>
+        <terminal-type>0</terminal-type>
+        <remove-instrumentation>0</remove-instrumentation>
+        <environment>
+        </environment>
+      </runprofile>
+    </conf>
+    <conf name="detection" type="0">
+      <toolsSet>
+        <developmentServer>localhost</developmentServer>
+        <platform>2</platform>
+      </toolsSet>
+      <compile>
+        <compiledirpicklist>
+          <compiledirpicklistitem>${AUTO_FOLDER}</compiledirpicklistitem>
+          <compiledirpicklistitem>.</compiledirpicklistitem>
+        </compiledirpicklist>
+        <compiledir>${AUTO_FOLDER}</compiledir>
+        <compilecommandpicklist>
+          <compilecommandpicklistitem>${AUTO_COMPILE}</compilecommandpicklistitem>
+          <compilecommandpicklistitem>${MAKE} ${ITEM_NAME}.o</compilecommandpicklistitem>
+        </compilecommandpicklist>
+        <compilecommand>${AUTO_COMPILE}</compilecommand>
+      </compile>
+      <dbx_gdbdebugger version="1">
+        <gdb_pathmaps>
+        </gdb_pathmaps>
+        <gdb_interceptlist>
+          <gdbinterceptoptions gdb_all="false" gdb_unhandled="true" gdb_unexpected="true"/>
+        </gdb_interceptlist>
+        <gdb_options>
+          <DebugOptions>
+          </DebugOptions>
+        </gdb_options>
+        <gdb_buildfirst gdb_buildfirst_overriden="false" gdb_buildfirst_old="false"/>
+      </dbx_gdbdebugger>
+      <nativedebugger version="1">
+        <engine>gdb</engine>
+      </nativedebugger>
+      <runprofile version="9">
+        <runcommandpicklist>
+          <runcommandpicklistitem>"${OUTPUT_PATH}"</runcommandpicklistitem>
+          <runcommandpicklistitem>caffe-fast-rcnn/build/tools/detection.bin --model=models/VGG_CNN_M_1024/test.prototxt --weights=vgg_cnn_m_1024_fast_rcnn_iter_100000.caffemodel --gpu=2</runcommandpicklistitem>
+        </runcommandpicklist>
+        <runcommand>caffe-fast-rcnn/build/tools/detection.bin --model=models/VGG_CNN_M_1024/test.prototxt --weights=vgg_cnn_m_1024_fast_rcnn_iter_100000.caffemodel --gpu=2</runcommand>
+        <rundir>/home/dl/codes/test-code/gitver</rundir>
+        <buildfirst>false</buildfirst>
+        <terminal-type>0</terminal-type>
+        <remove-instrumentation>0</remove-instrumentation>
+        <environment>
+        </environment>
+      </runprofile>
+    </conf>
+  </confs>
+</configurationDescriptor>
