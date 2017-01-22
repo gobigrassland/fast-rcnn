@@ -1,12 +1,12 @@
-# fast-rcnn
-re-implement of fast rcnn without python codes
+# Fast RCNN
+Re-implement of Fast Rcnn Without Python Codes
 
 #Contents
 1. Requirements
 2. Changes
 3. Installation
 4. Usage
-5. Experiment logs
+5. Experiment Logs
 
 #Requirements
 External dependencies  
