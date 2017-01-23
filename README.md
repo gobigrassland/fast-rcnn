@@ -19,7 +19,7 @@ External dependencies
 in "src/caffe/3rdparty".
 
 #Changes
-Main changes compared to caffe
+Main changes compared to caffe  
 1. roi_data_extractor.cpp in "src/caffe/util"  
   1.1 Load bounding boxes from XML file in the PASCAL VOC format  
   1.2 Load selective search regions of interest in the Matlab format  
@@ -38,11 +38,11 @@ Main changes compared to caffe
   git clone https://github.com/gobigrassland/fast-rcnn.git
 
 #Usage
- Train a Fast R-CNN detector. For example, train a VGG16 network on PASCAL VOC 2007 trainval:  
+ Train a Fast R-CNN detector. For example, train a VGG16 network on PASCAL VOC 2007 trainval:   
  caffe/build/tools/caffe.bin --solver=models/VGG16/solver.prototxt --weights=data/imagenet_models/VGG16.v2.caffemodel --gpu=0  
 
- Deploy a Fast R-CNN detector. For example, deploy the VGG16 network on PASCAL VOC 2007 test:
- Firstly, you need change the values of [COMMON]-[IMGS_LIST] and [COMMON]-[SS_MAT].
+ Deploy a Fast R-CNN detector. For example, deploy the VGG16 network on PASCAL VOC 2007 test:  
+ Firstly, you need change the values of [COMMON]-[IMGS_LIST] and [COMMON]-[SS_MAT].  
  caffe/build/tools/detection.bin --solver=models/VGG16/test.prototxt --weights=data/imagenet_models/VGG16_fast_rcnn_iter_40000.caffemodel \
  --config=cfg/config.cfg --gpu=0
 #Experiment logs
