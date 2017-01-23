@@ -40,6 +40,7 @@ Main changes compared to caffe
 
 #Usage
  Organize the data directory. See https://github.com/rbgirshick/fast-rcnn  
+ labels.txt containing all categories is located in "data/VOCdevkit/VOC2007"  
  
  Train a Fast R-CNN detector. For example, train a VGG16 network on PASCAL VOC 2007 trainval:   
  caffe/build/tools/caffe.bin --solver=models/VGG16/solver.prototxt --weights=data/imagenet_models/VGG16.v2.caffemodel --gpu=0  
