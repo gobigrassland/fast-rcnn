@@ -24,6 +24,8 @@ DEFINE_string(model, "",
 DEFINE_string(weights, "",
     "Optional; the pretrained weights to initialize finetuning. "
     "Cannot be set simultaneously with snapshot.");
+DEFINE_string(config, "",
+    "Config options");
 
 class Detection
 {
@@ -371,10 +373,9 @@ int main(int argc, char** argv)
   
     CHECK_GT(FLAGS_model.size(), 0) << "Need a model definition to score.";
     CHECK_GT(FLAGS_weights.size(), 0) << "Need model weights to score.";
-    std::cout << FLAGS_model << " " << FLAGS_weights << " " << FLAGS_gpu << std::endl;
+    CHECK_GT(FLAGS_config.size(), 0) << "Need a config file.";
     
-    std::string config_file = "cfg/config.cfg";
-    ParseConfig config(config_file);
+    ParseConfig config(FLAGS_config);
     config.ParseCommonConfig();
     struct COMMON common_cfg = config.GetCommonConfig();
     config.ParseDeployConfig();
