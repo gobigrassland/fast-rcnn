@@ -463,6 +463,6 @@ int main(int argc, char** argv)
         }
         
     }
-    
+    LOG(INFO) << "Detection done";
     return 0;
 }
