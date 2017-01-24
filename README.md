@@ -50,3 +50,4 @@ Main changes compared to caffe
  caffe/build/tools/detection.bin --solver=models/VGG16/test.prototxt --weights=data/imagenet_models/VGG16_fast_rcnn_iter_40000.caffemodel \
  --config=cfg/config.cfg --gpu=0
 #Experiment logs
+ Experiment logs are located in "logs"
