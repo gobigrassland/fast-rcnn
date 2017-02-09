@@ -11,9 +11,9 @@ Re-implement of Fast RCNN Without Python Codes
 #Requirements
 External dependencies  
 
-1. Pugixml - a light-weight C++ XML processing library. See http://pugixml.org/
-2. Matio - matlab mat file I/O library. See https://sourceforge.net/projects/matio/
-3. Cfgparser - configuration reader C++ library. See http://cfgparser.sourceforge.net/
+1. Pugixml - a light-weight C++ XML processing library. See http://pugixml.org/  
+2. Matio - matlab mat file I/O library. See https://sourceforge.net/projects/matio/  
+3. Cfgparser - configuration reader C++ library. See http://cfgparser.sourceforge.net/  
 
   Header files of these external libraries has been added in the directory - "include/caffe/3rdparty". And source files added
 in "src/caffe/3rdparty".
