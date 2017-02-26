@@ -29,7 +29,7 @@ Main changes compared to Caffe
 2. parse_config.cpp in "src/caffe/util"  
    Load config options for fast rcnn    
    
-3. roi_data_extractor.cpp in "src/caffe/layers"  
+3. roi_data_layer.cpp in "src/caffe/layers"  
    The data layer used during training to train a fast rcnn network.  
    
 4. detection.cpp in "tools"  
